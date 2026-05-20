@@ -83,7 +83,7 @@ This pipeline maps paired-end reads to a reference mitochondrial sequence, extra
 
 ### A.2.2 Step-by-Step Commands
 
-> ⚠️ **Before running each accession:** after SPAdes finishes, run the `grep ">"` command on `contigs.fasta` to identify the correct `NODE_1` name — it **will differ** between accessions.
+> **Before running each accession:** after SPAdes finishes, run the `grep ">"` command on `contigs.fasta` to identify the correct `NODE_1` name — it **will differ** between accessions.
 
 ---
 
@@ -320,7 +320,7 @@ pxclsq -s all_mitogenomes_aligned.aln -o all_mitogenomes_cleaned_05.aln-cln -p 0
 | `all_mitogenomes_cleaned_04.aln-cln` | `0.4` | Sites with ≥40% occupancy retained |
 | `all_mitogenomes_cleaned_05.aln-cln` | `0.5` | Sites with ≥50% occupancy retained |
 
-> ⚠️ Higher `-p` values = stricter cleaning = fewer sites retained but less missing data.
+> Higher `-p` values = stricter cleaning = fewer sites retained but less missing data.
 
 ---
 
