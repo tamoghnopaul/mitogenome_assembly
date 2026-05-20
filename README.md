@@ -1,9 +1,3 @@
----
-title: "Mitochondrial Genome Assembly"
-author: "Tamoghno Paul"
-date: '2026'
----
-
 # Appendix
 
 ## A.1 SLURM Job Script — SRA Prefetch
