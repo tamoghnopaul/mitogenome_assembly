@@ -2,14 +2,6 @@
 title: "Mitochondrial Genome Assembly"
 author: "Tamoghno Paul"
 date: '2026'
-output:
-  html_document:
-    toc: true
-    toc_float: true
-    theme: cosmo
-    highlight: tango
-  pdf_document:
-    toc: true
 ---
 
 # Appendix
